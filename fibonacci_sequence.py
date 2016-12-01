@@ -4,3 +4,6 @@ def fib_sequence(n):
        return n
    else:
        return(fib_sequence(n-1) + fib_sequence(n-2))
+x = 10
+for i in range(x):
+       print(fib_sequence(i))
