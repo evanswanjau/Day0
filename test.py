@@ -7,7 +7,7 @@ class PrimeTests(unittest.TestCase):
 		self.assertEqual(isPrime(10.5),"The number must be a whole number")
 	
 	def test_no_string(self):
-		self.assertEqual(isPrime("a"), "Cannot allow letters")
+		self.assertEqual(isPrime(""), "Cannot allow letters")
 
 	def test_no_list(self):
 		self.assertEqual(isPrime([24]), "Cannot allow lists")
